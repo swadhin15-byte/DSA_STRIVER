@@ -63,7 +63,7 @@ int main() {
     l2->next->next = new ListNode(4);
 
     Solution obj;
-    ListNode* result = obj.addTwoNumbers(l1, l2);
+    ListNode* result = obj.addTwoNumbers(l4, l0);
 
     cout << "Result: ";
     printList(result);
