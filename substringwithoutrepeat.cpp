@@ -30,7 +30,7 @@ int main() {
     Solution sol;
 
     // Test cases
-    cout << sol.lengthOfLongestSubstring("abcabcbb") << endl; // Expected: 3
+    cout << sol.lengthOfLongestSubstring("abababab") << endl; // Expected: 3
     cout << sol.lengthOfLongestSubstring("bbbbb") << endl;    // Expected: 1
     cout << sol.lengthOfLongestSubstring("pwwkew") << endl;   // Expected: 3
     cout << sol.lengthOfLongestSubstring("") << endl;         // Expected: 0
