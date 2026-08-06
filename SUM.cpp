@@ -19,7 +19,7 @@ public:
 
 int main() {
     Solution obj;
-    vector<int> nums = {9, 7, 19, 85};
+    vector<int> nums = {90,9,9,9);
     int target = 9;
 
     vector<int> ans = obj.twoSum(nums, target);
