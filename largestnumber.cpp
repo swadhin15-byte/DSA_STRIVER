@@ -1,28 +1,23 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+int main(){
+    int x,y,z;
+    cout<<"enter number 1:"<<endl;
+    cin>>x;
+    cout<<"enter number 2:"<<endl;
+    cin>>y;
+    cout<<"enter number 3:"<<endl;
+    cin>>z;
+    if(x>y && x>z){
+        cout<<" number 1 is the largest.";
 
-int main() {
-    int n;
+    }
+    else if(y>x && y>z){
+        cout<<"number 2  is the largest.";
 
-    cout << "Enter the number of elements: ";
-    cin >> n;
-
-    int arr[n];
-
-    cout << "Enter the elements: ";
-    for(int i = 0; i < n; i++) {
-        cin >> arr[i];
+    }
+    else{
+        cout<<"number 3 is the largest.";
     }
 
-    int largest = arr[0];
-
-    for(int i = 1; i < n; i++) {
-        if(arr[i] > largest) {
-            largest = arr[i];
-        }
-    }
-
-    cout << "Largest element = " << largest;
-
-    return 0;
 }
